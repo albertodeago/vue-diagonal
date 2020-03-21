@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "diagonal",
+  name: "vue-diagonal",
 
   props: {
     /**
@@ -93,6 +93,7 @@ export default {
   bottom: 0;
   transform: skewy(var(--v-diag-angle));
   transform-origin: 50% 0;
+  margin-top: -1px; /* this is a to "attach" completely 2 consecutive vue-diagonal components */
   background: var(--v-diag-background);
 }
 

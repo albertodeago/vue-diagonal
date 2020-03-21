@@ -1,6 +1,4 @@
-![logo]()
-
-# vue-diagonal
+# Getting started
 
 VueDiagonal is a (Vue) component that helps you create easily modern diagonal elements to make your app/website more seductive.  
 It comes with no dependencies and **it weights 4kb** before gzip.
@@ -43,7 +41,19 @@ Using in templates
 </div>
 ```
 
-🎉 you've done it!
+Or like this
+``` html
+<div class="my-container">
+    <vue-diagonal :deg="-4"
+                  background="linear-gradient(331deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)"
+                  space-after>
+        <div>
+            This one will have a gradient background and enough space after 
+            to not overlap with the next element
+        </div>
+    </vue-diagonal>
+</div>
+```
 
 
 ## Parameters
@@ -69,38 +79,8 @@ The component does not emit any events
 The component has a default slot where you should put your content/text
 
 
-## Contributing
-
-The project is opened to contributes, suggestions and improvements. You can use the [Issues](https://github.com/albertodeago/vue-diagonal/issues) section.
-
-
-### Project setup
-
-Fork the project, open it up and type
-```
-npm install
-```
-
-To run the example page, it will open a dev server listening to localhost:8080 (usually), type:
-```
-npm run dev
-```
-
-To build for production
-```
-npm run build
-```
-
-To prepare for pubblication (build both docs and project)
-```
-npm run prepublish
-```
-
-Test are not implemented yet.
-
-
 ## Author and License
 
 [Alberto De Agostini](https://twitter.com/albertodeago88)
 
-Licensed under MIT 
+[Show me the code (github)](https://github.com/albertodeago/vue-diagonal)

@@ -9,11 +9,10 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "demo": "vue-cli-service demo",
-    "docs": "npm run docs:serve",
-    "docs:build": "vue-cli-service docs --mode build",
-    "docs:serve": "vue-cli-service docs --mode serve",
-    "prepublish": "vue-cli-service docs --mode build && vue-cli-service build",
-    "start": "vue-cli-service serve"
+    "demo:build": "vue-cli-service build demo",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "prepublish": "npm run docs:build && npm run build"
   },
   "main": "dist/vue-diagonal.common.js",
   "module": "dist/vue-diagonal.esm.js",

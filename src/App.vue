@@ -5,18 +5,18 @@
       content before, you can choose to not overlap it
     </div>
     <div class="align-center">
-      <diagonal :deg="-8"
+      <vue-diagonal :deg="-8"
                 background="#00d4ff"
                 space-before
       >
         <h2>With a solid color</h2>
-      </diagonal>
-      <diagonal :deg="-8"
+      </vue-diagonal>
+      <vue-diagonal :deg="-8"
                 background="linear-gradient(183deg, rgba(0,212,255,1) 0%, rgba(85,239,136,1) 52%, rgba(0,212,255,1) 100%)"
       >
         <h2>With a beautiful gradient</h2>
-      </diagonal>
-      <diagonal :deg="-8"
+      </vue-diagonal>
+      <vue-diagonal :deg="-8"
                 background="url('./pattern.png')"
                 space-after
       >
@@ -28,7 +28,7 @@
             Beware, the image is being skewed, not cool with a lot of images
           </div>
         </h2>
-      </diagonal>
+      </vue-diagonal>
       
     </div>
     <div>
