@@ -1,8 +1,10 @@
 {
+  "author": "albertodeagostini.dev@gmail.com",
   "name": "vue-diagonal",
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
@@ -36,6 +38,15 @@
     "vue-template-compiler": "^2.6.11",
     "vue": "^2.6.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertodeago/vue-diagonal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/albertodeago/vue-diagonal/issues"
+  },
+  "homepage": "https://github.com/albertodeago/vue-diagonal/blob/master/README.md",
+  "license": "MIT",
   "jsdelivr": "dist/vue-diagonal.umd.min.js",
   "sideeffects": false
 }
