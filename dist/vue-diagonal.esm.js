@@ -57,7 +57,6 @@ var script = {
     cssVars: function cssVars() {
       var angleRad = this.deg * Math.PI / 180;
       var number = Math.abs(Math.tan(angleRad) / 2);
-      console.log(this.background);
       return {
         "--v-diag-width": this.maxWidth + "",
         "--v-diag-angle": this.deg + "deg",
@@ -216,7 +215,7 @@ var __vue_staticRenderFns__ = [];
   /* style */
   const __vue_inject_styles__ = function (inject) {
     if (!inject) return
-    inject("data-v-035d1064_0", { source: ".diagonal-container{position:relative;padding:var(--v-diag-skew-padding) 0}.diagonal-container.space-before{margin-top:var(--v-diag-skew-padding)}.diagonal-container.space-after{margin-bottom:var(--v-diag-skew-padding)}.diagonal-container:before{content:\"\";position:absolute;left:0;top:0;right:0;bottom:0;transform:skewy(var(--v-diag-angle));transform-origin:50% 0;margin-top:-1px;background:var(--v-diag-background)}.diagonal-content{max-width:var(--v-diag-width);position:relative}", map: undefined, media: undefined });
+    inject("data-v-86bdb126_0", { source: ".diagonal-container{position:relative;padding:var(--v-diag-skew-padding) 0}.diagonal-container.space-before{margin-top:var(--v-diag-skew-padding)}.diagonal-container.space-after{margin-bottom:var(--v-diag-skew-padding)}.diagonal-container:before{content:\"\";position:absolute;left:0;top:0;right:0;bottom:0;transform:skewy(var(--v-diag-angle));transform-origin:50% 0;margin-top:-1px;background:var(--v-diag-background)}.diagonal-content{max-width:var(--v-diag-width);position:relative}", map: undefined, media: undefined });
 
   };
   /* scoped */

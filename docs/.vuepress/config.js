@@ -1,5 +1,16 @@
 module.exports = {
   base: '/vue-diagonal/',
+
+  plugins: [
+    '@vuepress/last-updated',
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-161538924-1'
+      }
+    ]
+  ],
+
   locales: {
     '/': {
       lang: 'en-US',
@@ -7,6 +18,7 @@ module.exports = {
       description: 'VueDiagonal, a component for Vue.js'
     }
   },
+
   themeConfig: {
     repo: 'albertodeago/vue-diagonal',
     docsDir: 'docs',
