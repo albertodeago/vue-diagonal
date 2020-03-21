@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/vue-diagonal/',
   locales: {
     '/': {
       lang: 'en-US',
