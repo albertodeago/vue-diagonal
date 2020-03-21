@@ -56,7 +56,6 @@ export default {
     cssVars() {
       const angleRad = (this.deg * Math.PI) / 180;
       const number = Math.abs(Math.tan(angleRad) / 2);
-      console.log(this.background);
       return {
         "--v-diag-width": this.maxWidth + "",
         "--v-diag-angle": this.deg + "deg",
