@@ -29,8 +29,14 @@ export default {
      */
     background: String,
 
+    /**
+     * If true it adds extra margin at top to avoid overlapping with previous elements
+     */
     spaceBefore: Boolean,
 
+    /**
+     * If true it adds extra margin at bottom to avoid overlapping with next elements
+     */
     spaceAfter: Boolean
   },
 

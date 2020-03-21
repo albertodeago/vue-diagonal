@@ -1,28 +1,30 @@
-const version = '__VERSION__'
+// const version = '__VERSION__'
 
-const install = Vue => {
-  /*
-   * NOTE:
-   *   if you need to extend Vue contstructor, you can extend it in here.
-   */
+// const install = Vue => {
+//   /*
+//    * NOTE:
+//    *   if you need to extend Vue contstructor, you can extend it in here.
+//    */
 
-  Vue.prototype.$add = (a, b) => {
-    return a + b
-  }
+//   Vue.prototype.$add = (a, b) => {
+//     return a + b
+//   }
 
-  /*
-   * NOTE:
-   *  somthing implementation here ...
-   */
-}
+//   /*
+//    * NOTE:
+//    *  somthing implementation here ...
+//    */
+// }
 
-const plugin = {
-  install,
-  version
-}
+// const plugin = {
+//   install,
+//   version
+// }
 
-export default plugin
+// export default plugin
 
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(plugin)
-}
+// if (typeof window !== 'undefined' && window.Vue) {
+//   window.Vue.use(plugin)
+// }
+
+module.exports = require('./Diagonal.vue')
