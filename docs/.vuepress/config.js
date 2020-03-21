@@ -1,16 +1,13 @@
 module.exports = {
-  plugins: [
-    require('./plugin.js')
-  ],
   locales: {
     '/': {
       lang: 'en-US',
       title: 'VueDiagonal',
-      description: 'VueDiagonal for Vue.js'
+      description: 'VueDiagonal, a component for Vue.js'
     }
   },
   themeConfig: {
-    repo: '/vue-diagonal',
+    repo: 'albertodeago/vue-diagonal',
     docsDir: 'docs',
     locales: {
       '/': {
@@ -19,11 +16,14 @@ module.exports = {
         editLinkText: 'Edit this page on GitHub',
         nav: [{
           text: 'Release Notes',
-          link: 'https://github.com//vue-diagonal/releases'
+          link: 'https://github.com/albertodeago/vue-diagonal/releases'
         }],
         sidebar: [
-          '/installation.md',
-          '/started.md',
+          '/getting-started.md',
+          {
+            title: "Examples",
+            path: '/examples.md'
+          },
         ]
       }
     }

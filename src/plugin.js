@@ -4,9 +4,9 @@
  */
 
 import Vue from 'vue'
-import plugin from './index'
+import Diagonal from './index'
 
-Vue.use(plugin)
+Vue.component(Diagonal.name, Diagonal)
 
 /*
  * NOTE:
