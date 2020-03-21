@@ -1,4 +1,4 @@
-![logo](https://github.com/albertodeago/vue-diagonal/blob/master/assets/vue-diagonal.logo.jpg)
+![logo](https://github.com/albertodeago/vue-diagonal/blob/master/assets/vue-diagonal.logo.png)
 
 # vue-diagonal
 
