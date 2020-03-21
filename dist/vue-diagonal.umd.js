@@ -18,7 +18,7 @@
   //
   //
   var script = {
-    name: "diagonal",
+    name: "vue-diagonal",
     props: {
       /**
        * Inclination, in deg
@@ -222,7 +222,7 @@
     /* style */
     const __vue_inject_styles__ = function (inject) {
       if (!inject) return
-      inject("data-v-7b2f3f0f_0", { source: ".diagonal-container{position:relative;padding:var(--v-diag-skew-padding) 0}.diagonal-container.space-before{margin-top:var(--v-diag-skew-padding)}.diagonal-container.space-after{margin-bottom:var(--v-diag-skew-padding)}.diagonal-container:before{content:\"\";position:absolute;left:0;top:0;right:0;bottom:0;transform:skewy(var(--v-diag-angle));transform-origin:50% 0;background:var(--v-diag-background)}.diagonal-content{max-width:var(--v-diag-width);position:relative}", map: undefined, media: undefined });
+      inject("data-v-035d1064_0", { source: ".diagonal-container{position:relative;padding:var(--v-diag-skew-padding) 0}.diagonal-container.space-before{margin-top:var(--v-diag-skew-padding)}.diagonal-container.space-after{margin-bottom:var(--v-diag-skew-padding)}.diagonal-container:before{content:\"\";position:absolute;left:0;top:0;right:0;bottom:0;transform:skewy(var(--v-diag-angle));transform-origin:50% 0;margin-top:-1px;background:var(--v-diag-background)}.diagonal-content{max-width:var(--v-diag-width);position:relative}", map: undefined, media: undefined });
 
     };
     /* scoped */
