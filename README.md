@@ -2,6 +2,7 @@
 
 # vue-diagonal
 
+add tpyo
 VueDiagonal is a (Vue) component that helps you create easily modern diagonal elements to make your app/website more seductive.  
 It comes with no dependencies and **it weights 4kb** before gzip.  
 [Demo & Docs](https://albertodeago.github.io/vue-diagonal/)
