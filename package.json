@@ -32,7 +32,6 @@
     "@vue/cli-plugin-unit-jest": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "@vue/test-utils": "1.0.0-beta.31",
-    "@vuepress/plugin-google-analytics": "^1.4.0",
     "vue": "^2.6.11",
     "vue-cli-plugin-p11n": "^0.4.0",
     "vue-template-compiler": "^2.6.11"

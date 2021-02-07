@@ -2,13 +2,17 @@ module.exports = {
   base: '/vue-diagonal/',
 
   plugins: [
-    '@vuepress/last-updated',
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'UA-161538924-1'
-      }
-    ]
+    '@vuepress/last-updated'
+  ],
+
+  head: [
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-43EK99KSQY'}],
+    ['script', {}, `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-43EK99KSQY');
+    `]
   ],
 
   locales: {
