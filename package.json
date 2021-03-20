@@ -27,6 +27,7 @@
     "core-js": "^3.6.4"
   },
   "devDependencies": {
+    "@panelbear/vuepress-plugin-panelbear": "^1.0.0",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-e2e-cypress": "^4.2.0",
     "@vue/cli-plugin-unit-jest": "^4.2.0",
