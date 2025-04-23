@@ -8,6 +8,8 @@ It comes with no dependencies and **it weights 4kb** before gzip.
 
 ![Build and Deploy](https://github.com/albertodeago/vue-diagonal/workflows/Build%20and%20Deploy/badge.svg?branch=master)
 
+<a href="https://www.buymeacoffee.com/albertodeago" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 
 ## How to install and use
 
